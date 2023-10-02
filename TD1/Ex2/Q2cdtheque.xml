@@ -1,0 +1,16 @@
+<!DOCTYPE cdtheque SYSTEM "cdtheque.dtd">
+<cdtheque date="10/01/2023" auteur="Ons">
+    <cd>
+        <titre>First Album </titre>
+        <artiste>Artist 1</artiste>
+    </cd>
+    <cd>
+        <titre>Second Album </titre>
+        <style>jazz</style>
+        <artiste>Artist 2</artiste>
+    </cd>
+    <cd>
+        <titre>Third Album </titre>
+        <artiste>Artist 3</artiste>
+    </cd>
+</cdtheque>

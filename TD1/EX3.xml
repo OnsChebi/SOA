@@ -1,0 +1,24 @@
+<!DOCTYPE cdtheque [
+    <!ELEMENT filmographie (film*)>
+    <!ELEMENT film (titre,realisateur,annee,acteurs)>
+    <!ELEMENT titre (#PCDATA) >
+    <!ELEMENT realisateur (#PCDATA) >
+    <!ELEMENT annee (#PCDATA) >
+    <!ELEMENT annee (acteurs+)>
+    <!ELEMENT acteur(#PCDATA)
+
+]>
+
+<?xml version="1.0"?>
+<filmographie>
+    <film>
+        <titre>Harry Potter and the Sorcerer's Stone</titre>
+        <realisateur>Chris Columbus </realisateur>
+        <annee>2001</annee>
+        <acteurs>
+            <acteur>Daniel Radcliffe</acteur>
+            <acteur>Rupert Grint</acteur>
+            <acteur>Emma Watson</acteur>
+        </acteurs>
+    </film>
+</filmographie>

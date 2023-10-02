@@ -1,0 +1,22 @@
+<!DOCTYPE cdtheque [
+    <!ELEMENT cdtheque (cd*) >
+    <!ATTLIST cdtheque date CDATA #REQUIRED>
+    <!ATTLIST cdtheque auteur CDATA #REQUIRED>
+    <!ELEMENT cd (titre, artiste, style?)>
+    <!ELEMENT titre (#PCDATA) >
+    <!ELEMENT style (#PCDATA) >
+    <!ELEMENT artiste (#PCDATA) >
+]>
+
+<?xml version="1.0"?>
+<cdtheque date="10/01/2023" auteur="Ons">
+    <cd>
+        <titre>First Album </titre>
+        <artiste>Artistoo</artiste>
+    </cd>
+    <cd>
+        <titre>Second Album </titre>
+        <style>jazz</style>
+        <artiste>Artist 2</artiste>
+    </cd>
+</cdtheque>

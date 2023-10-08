@@ -1,0 +1,28 @@
+<elements name="classes">
+    <complexType base="SOAP-ENC:Array">
+        <element name="class" type="tekup:class" maxOccurs="30"/>
+    </complexType>
+</elements>
+
+<tekup:classes SOAP-ENC:arrayType="tekup:class[5]">
+    <class>
+        <section>DMWM</section>
+        <group>a</group>
+    </class>
+    <class>
+        <section>DMWM</section>
+        <group>b</group>
+    </class>
+    <class>
+        <section>GLSI</section>
+        <group>a</group>
+    </class>
+    <class>
+        <section>GLSI</section>
+        <group>b</group>
+    </class>
+    <class>
+        <section>SI</section>
+        <group>a</group>
+    </class>
+</tekup:classes>
